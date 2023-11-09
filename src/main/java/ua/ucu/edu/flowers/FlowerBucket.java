@@ -34,6 +34,24 @@ public class FlowerBucket extends Item {
         System.out.println("Flower is not found.");
        }
     }
+
+    public String getDescription() {
+
+        int n = flowers.size();
+        String description = "";
+
+        for (int i = 0; i < n; i++) {
+
+            if( i == (n-1)){
+                description += flowers.get(i).getDescription();
+            }
+            else{
+                description += flowers.get(i).getDescription() + ", ";
+            }
+            
+        }
+        return description + " in bucket";
+    }
 }
 
 

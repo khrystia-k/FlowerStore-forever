@@ -6,7 +6,7 @@ public class PaperDecorator extends ItemDecorator {
 
     @Override
     public String getDescription() {
-        return item.getDescription() + "is packed in paper";
+        return item.getDescription() + " is packed in paper";
     }
 
     public double getPrice(){
