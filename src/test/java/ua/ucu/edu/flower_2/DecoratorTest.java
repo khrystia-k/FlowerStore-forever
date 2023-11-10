@@ -5,10 +5,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import ua.ucu.edu.decorators.PaperDecorator;
+import ua.ucu.edu.decorators.RibbonDecorator;
 import ua.ucu.edu.flowers.Flower;
 import ua.ucu.edu.flowers.FlowerBucket;
-import ua.ucu.edu.flowers.PaperDecorator;
-import ua.ucu.edu.flowers.RibbonDecorator;
 
 
 @SpringBootTest

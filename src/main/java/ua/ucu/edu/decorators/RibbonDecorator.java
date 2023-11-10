@@ -1,4 +1,6 @@
-package ua.ucu.edu.flowers;
+package ua.ucu.edu.decorators;
+
+import ua.ucu.edu.flowers.Item;
 
 public class RibbonDecorator extends ItemDecorator {
 
