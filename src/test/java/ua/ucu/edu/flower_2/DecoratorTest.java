@@ -11,7 +11,7 @@ import ua.ucu.edu.flowers.Flower;
 import ua.ucu.edu.flowers.FlowerBucket;
 
 
-@SpringBootTest
+
 public class DecoratorTest {
 
     Flower flower = new Flower();

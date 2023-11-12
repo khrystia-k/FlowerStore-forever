@@ -13,7 +13,7 @@ import ua.ucu.edu.flowers.Item;
 import ua.ucu.edu.payment.CreditCardPaymentStrategy;
 import ua.ucu.edu.payment.PayPalPaymentStrategy;
 
-@SpringBootTest
+
 class DeliveryTest {
 
 	LinkedList<Item> items = new LinkedList();
